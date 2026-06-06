@@ -1,0 +1,20 @@
+@baseUrl = http://localhost:3232
+
+### Get all instances
+GET {{baseUrl}}/instances
+Content-Type: application/json
+
+{
+    "name": ""
+}
+
+###
+
+### Create instance
+POST {{baseUrl}}/instances
+Content-Type: application/json
+
+{
+    "name": "my-instance"
+}
+
